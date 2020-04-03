@@ -1,0 +1,27 @@
+<div class = container>
+    <h2 id = "quote">ADD YOUR QUOTE</h2>
+    <hr>
+    <div class="row">
+        
+        <div class = "col-lg-8">
+<div id = "input">
+   
+<label for=""> Author:</label><br>
+<input type="text"[(ngModel)] = "newEntry.author" author = 'author'><br><br>
+
+<label for="">Date:</label><br>
+<input type="date" [(ngModel)] = "newEntry.date" date = date><br><br>
+<label for="">Name:</label><br>
+<input type="text" [(ngModel)] = 'newEntry.name' name="">
+</div>
+
+</div>
+<div class="col-lg-4">
+    <label for="">Quote:</label><br>
+<textarea name="" id="" cols="55" rows="11" [(ngModel)] = "newEntry.comment " comment = 'comment'></textarea>
+</div>
+
+</div><br> <br>
+<button class="btn btn-outline-danger" (click) = "addQuote()"  style="margin-bottom: 30px;margin-left: 280px;">ADD QUOTE</button>
+
+</div>
