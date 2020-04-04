@@ -1,15 +1,13 @@
-import { DateAgoPipe } from './../date-ago.pipe';
 import { Quote } from './../quote';
 import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
 
 
-
 @Component({
-  selector: 'app-goal-details',
-  templateUrl: './goal-details.component.html',
-  styleUrls: ['./goal-details.component.css']
+  selector: 'app-qoute-details',
+  templateUrl: './qoute-details.component.html',
+  styleUrls: ['./qoute-details.component.css']
 })
-export class GoalDetailsComponent implements OnInit {
+export class QouteDetailsComponent implements OnInit {
 
   @Input() quote:Quote
   @Output() toDelete = new EventEmitter <Boolean>()
@@ -27,6 +25,7 @@ export class GoalDetailsComponent implements OnInit {
    }
    authorDate:Date;
  
+
 
   constructor() { }
 

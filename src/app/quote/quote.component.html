@@ -3,7 +3,7 @@
 <div class = "container">
     <div *ngFor = "let quote of quotes; let i = index ">
         <div class="rowB">
-            <app-goal-details [quote] = 'quote' (toDelete) ='deleteEntry($event,i)'></app-goal-details>
+            <app-qoute-details [quote] = 'quote' (toDelete) ='deleteEntry($event,i)'></app-qoute-details>
         </div>
     </div>
     <div class = "row rowC ">

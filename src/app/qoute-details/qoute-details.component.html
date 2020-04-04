@@ -1,0 +1,19 @@
+<div  class="container">
+    <div class=" row rowA" appHighlight>
+        
+       
+    <p> <br>
+        <i class="fas fa-quote-left"></i> <br>{{quote.comment}}<br> <i class="fas fa-quote-right"></i><br>
+        <i class="fas fa-comment-alt">  {{quote.name}} </i> <br><br><br>
+        <i class="fas fa-thumbs-up" (click) = 'likeButton()' id = "up" > {{numberOfLikes}}   </i> 
+        <i class="fas fa-thumbs-down"  (click) = 'dislikeButton()' id = "down">{{numberOfDislikes}}</i><br><br>
+     <i class="fas fa-trash" (click) = 'deleteComment(true)' id = "remove">REMOVE</i><br>
+      posted ;{{quote.date|dateAgo}}
+    </p>
+          
+    
+    </div>
+    </div>
+
+
+

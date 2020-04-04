@@ -8,8 +8,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class DateAgoPipe implements PipeTransform {
 
   transform(value: any):any  {
-     
-    let timeResult:string
+ 
     
     let nameDate:Date = new Date();
     let publishDate:any = new Date(nameDate.getFullYear(),nameDate.getMonth(),nameDate.getDate());
