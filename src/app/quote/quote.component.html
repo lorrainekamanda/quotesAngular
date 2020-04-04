@@ -3,23 +3,13 @@
 <div class = "container">
     <div *ngFor = "let quote of quotes; let i = index ">
         <div class="rowB">
-     
-        <app-goal-details [quote] = 'quote' (toDelete) ='deleteEntry($event,i)'></app-goal-details>
+            <app-goal-details [quote] = 'quote' (toDelete) ='deleteEntry($event,i)'></app-goal-details>
+        </div>
     </div>
-    </div>
-
-<div class = "row ">
-    
-    <div class = "col-lg-7"  >
-    
-<div  id = "child1">
-    
-</div>
-<hr style="color: tomato;">
-    <app-form (toAdd) = 'addEntry($event)'></app-form> 
-    
-    
-</div>
-
-</div>
+    <div class = "row rowC ">
+        <div class = "col-lg-7"  >
+            <div  id = "child1"></div>
+             <app-form (toAdd) = 'addEntry($event)'></app-form> 
+            </div>
+        </div>
 </div>
