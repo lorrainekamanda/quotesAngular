@@ -2,7 +2,7 @@
 My Quotes is a project that helps the viewer view amazing qoutes from amazing,strong people such as
 *Maya Angeloue,Nelson Mandela,Martin Luther King .* and many more amazing people,posted by different
 people all over the world.
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+This project was generated with [Angular CLI](https://github.com/quotesAngular/angular-cli) version 9.0.7.
 project Live link:
 
 ## Development server
